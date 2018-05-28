@@ -1,3 +1,4 @@
 flows:
   default:
     - echo "test"
+    - while true; do echo "Job is running"; sleep 1; done
